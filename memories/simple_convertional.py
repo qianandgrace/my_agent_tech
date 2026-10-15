@@ -38,8 +38,6 @@ chain_with_history = RunnableWithMessageHistory(
 
 if __name__ == "__main__":
     session_id = "user_123"
-
-
     response1 = chain_with_history.invoke(
         {"input": "Hello! How are you?"},
         config={"configurable": {"session_id": session_id}}

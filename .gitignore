@@ -17,3 +17,7 @@ third_party/
 
 # csv data
 *.csv
+
+# generated gif artifacts & pytest cache
+movies_create_agent/output/
+.pytest_cache/
